@@ -291,11 +291,209 @@
 
     footer a:hover { text-decoration: underline; }
 
+    /* ── Secret trigger ── */
+    .secret-trigger {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      font-size: 0.7rem;
+      color: var(--muted);
+      opacity: 0.12;
+      cursor: pointer;
+      font-family: monospace;
+      padding: 4px 2px;
+      user-select: none;
+      transition: opacity 0.3s;
+    }
+    .secret-trigger:hover { opacity: 0.45; }
+
+    /* ── Password modal overlay ── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-overlay.active { display: flex; }
+
+    .modal-box {
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 14px;
+      padding: 28px 32px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.5);
+      font-family: 'Fira Code', 'Courier New', monospace;
+      animation: modalIn 0.22s ease;
+    }
+
+    @keyframes modalIn {
+      from { opacity: 0; transform: translateY(12px) scale(0.97); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    .modal-box .m-title {
+      font-size: 0.78rem;
+      color: #10b981;
+      letter-spacing: 1px;
+      margin-bottom: 18px;
+    }
+
+    .modal-box .m-line {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .modal-box .m-prompt { color: #10b981; font-size: 0.88rem; }
+
+    .modal-box input[type="password"] {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #e2e8f0;
+      font-family: inherit;
+      font-size: 0.88rem;
+      caret-color: #60a5fa;
+      letter-spacing: 2px;
+    }
+
+    .modal-box .m-err {
+      font-size: 0.78rem;
+      color: #f87171;
+      min-height: 18px;
+      margin-bottom: 14px;
+      padding-left: 20px;
+    }
+
+    .modal-box .m-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+
+    .modal-box button {
+      font-family: inherit;
+      font-size: 0.82rem;
+      padding: 7px 18px;
+      border-radius: 7px;
+      cursor: pointer;
+      border: 1px solid #334155;
+      background: transparent;
+      color: #94a3b8;
+      transition: all 0.15s;
+    }
+
+    .modal-box button.btn-ok {
+      background: #2563eb;
+      border-color: #2563eb;
+      color: #fff;
+    }
+
+    .modal-box button:hover { opacity: 0.8; }
+
+    /* ── Secret panel ── */
+    .secret-panel {
+      display: none;
+      background: #0f172a;
+      border: 1px solid #1e3a5f;
+      border-radius: 14px;
+      padding: 28px;
+      margin-bottom: 48px;
+      animation: panelIn 0.3s ease;
+    }
+
+    .secret-panel.active { display: block; }
+
+    @keyframes panelIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    .secret-panel .sp-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .secret-panel .sp-title {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 0.82rem;
+      color: #10b981;
+      letter-spacing: 1px;
+    }
+
+    .secret-panel .sp-close {
+      font-size: 0.75rem;
+      color: #475569;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-family: monospace;
+      transition: color 0.15s;
+    }
+
+    .secret-panel .sp-close:hover { color: #f87171; }
+
+    .secret-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 12px;
+    }
+
+    .secret-link {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+      padding: 16px 18px;
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #e2e8f0;
+      transition: background 0.15s, border-color 0.15s, transform 0.15s;
+    }
+
+    .secret-link:hover {
+      background: #1e3a5f;
+      border-color: #2563eb;
+      transform: translateY(-2px);
+    }
+
+    .secret-link .sl-icon { font-size: 1.2rem; }
+
+    .secret-link .sl-label {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #cbd5e1;
+    }
+
+    .secret-link .sl-url {
+      font-size: 0.7rem;
+      color: #475569;
+      font-family: monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+
     /* ── Responsive ── */
     @media (max-width: 560px) {
       .header-text h1 { font-size: 1.4rem; }
       .stats { gap: 16px; padding: 16px 20px; }
       .stat-divider { display: none; }
+      .modal-box { margin: 0 16px; }
+      .secret-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
     }
   </style>
 </head>
@@ -350,6 +548,47 @@
     </div>
   </div>
 
+  <!-- Secret panel (hidden until authenticated) -->
+  <div id="secretPanel" class="secret-panel">
+    <div class="sp-header">
+      <span class="sp-title">// root access granted ·  private zone</span>
+      <button class="sp-close" onclick="closeSecret()">[ close ]</button>
+    </div>
+    <div class="secret-grid">
+      <!-- ★ 아래 href / 아이콘 / 라벨을 원하는 링크로 교체하세요 ★ -->
+      <a class="secret-link" href="https://notion.so" target="_blank" rel="noopener">
+        <span class="sl-icon">📝</span>
+        <span class="sl-label">Notion</span>
+        <span class="sl-url">notion.so</span>
+      </a>
+      <a class="secret-link" href="https://figma.com" target="_blank" rel="noopener">
+        <span class="sl-icon">🎨</span>
+        <span class="sl-label">Figma</span>
+        <span class="sl-url">figma.com</span>
+      </a>
+      <a class="secret-link" href="https://jira.atlassian.com" target="_blank" rel="noopener">
+        <span class="sl-icon">📋</span>
+        <span class="sl-label">Jira</span>
+        <span class="sl-url">jira.atlassian.com</span>
+      </a>
+      <a class="secret-link" href="https://console.aws.amazon.com" target="_blank" rel="noopener">
+        <span class="sl-icon">☁️</span>
+        <span class="sl-label">AWS Console</span>
+        <span class="sl-url">console.aws.amazon.com</span>
+      </a>
+      <a class="secret-link" href="https://vercel.com/dashboard" target="_blank" rel="noopener">
+        <span class="sl-icon">▲</span>
+        <span class="sl-label">Vercel</span>
+        <span class="sl-url">vercel.com</span>
+      </a>
+      <a class="secret-link" href="https://grafana.com" target="_blank" rel="noopener">
+        <span class="sl-icon">📊</span>
+        <span class="sl-label">Grafana</span>
+        <span class="sl-url">grafana.com</span>
+      </a>
+    </div>
+  </div>
+
   <!-- Projects -->
   <div class="section-title">Projects</div>
   <div class="grid">
@@ -383,10 +622,104 @@
   </div>
 
   <!-- Footer -->
-  <footer>
+  <footer style="position:relative;">
     <p>Built with ❤️ &amp; HTML · <a href="https://github.com/jongils" target="_blank" rel="noopener">github.com/jongils</a></p>
+    <span class="secret-trigger" id="secretTrigger" title="">[root]</span>
   </footer>
 
 </div>
+
+<!-- Password modal -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <div class="m-title">// sudo access required</div>
+    <div class="m-line">
+      <span class="m-prompt">password:</span>
+      <input type="password" id="pwInput" placeholder="enter passphrase" autocomplete="off" />
+    </div>
+    <div class="m-err" id="pwErr"></div>
+    <div class="m-actions">
+      <button onclick="closeModal()">cancel</button>
+      <button class="btn-ok" onclick="submitPassword()">unlock</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── 설정 ──────────────────────────────────────────────────────────────────
+  // 기본 암호: jongils2026
+  // 변경하려면 브라우저 콘솔에서 아래 명령으로 새 해시를 생성하세요:
+  //   getHash('새비밀번호').then(console.log)
+  // 출력된 값을 SECRET_HASH에 붙여넣으세요.
+  const SECRET_HASH = '862eb017013fb740c6c4449b21c33206bb8867018d6bc17e4a5c86f23a9d64b1';
+  // ──────────────────────────────────────────────────────────────────────────
+
+  async function sha256(str) {
+    const buf = await crypto.subtle.digest(
+      'SHA-256', new TextEncoder().encode(str)
+    );
+    return Array.from(new Uint8Array(buf))
+      .map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+
+  // 콘솔에서 새 해시 생성용 헬퍼
+  window.getHash = sha256;
+
+  // ── 세션 내 인증 유지 ──
+  let authenticated = false;
+
+  document.getElementById('secretTrigger').addEventListener('click', () => {
+    if (authenticated) { togglePanel(); return; }
+    openModal();
+  });
+
+  function openModal() {
+    document.getElementById('pwInput').value = '';
+    document.getElementById('pwErr').textContent = '';
+    document.getElementById('modalOverlay').classList.add('active');
+    setTimeout(() => document.getElementById('pwInput').focus(), 60);
+  }
+
+  function closeModal() {
+    document.getElementById('modalOverlay').classList.remove('active');
+  }
+
+  document.getElementById('pwInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter') submitPassword();
+    if (e.key === 'Escape') closeModal();
+  });
+
+  document.getElementById('modalOverlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeModal();
+  });
+
+  async function submitPassword() {
+    const val = document.getElementById('pwInput').value;
+    const hash = await sha256(val);
+    if (hash === SECRET_HASH) {
+      authenticated = true;
+      closeModal();
+      showPanel();
+    } else {
+      document.getElementById('pwErr').textContent = '// access denied — wrong passphrase';
+      document.getElementById('pwInput').value = '';
+      document.getElementById('pwInput').focus();
+    }
+  }
+
+  function showPanel() {
+    const panel = document.getElementById('secretPanel');
+    panel.classList.add('active');
+    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function togglePanel() {
+    document.getElementById('secretPanel').classList.toggle('active');
+  }
+
+  function closeSecret() {
+    document.getElementById('secretPanel').classList.remove('active');
+  }
+</script>
 </body>
 </html>
