@@ -1,0 +1,31 @@
+{
+  "links": [
+    {
+      "id": "lnk001",
+      "title": "GitHub Profile",
+      "url": "https://github.com/jongils",
+      "description": "jongils의 GitHub 프로필 페이지",
+      "category": "개발",
+      "tags": ["github", "profile"],
+      "addedAt": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "lnk002",
+      "title": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "description": "웹 기술 공식 문서 — HTML, CSS, JavaScript 레퍼런스",
+      "category": "학습",
+      "tags": ["docs", "web", "reference"],
+      "addedAt": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "lnk003",
+      "title": "Can I use",
+      "url": "https://caniuse.com",
+      "description": "브라우저별 웹 기술 지원 현황 확인 도구",
+      "category": "도구",
+      "tags": ["browser", "compatibility", "web"],
+      "addedAt": "2026-04-09T00:00:00.000Z"
+    }
+  ]
+}
