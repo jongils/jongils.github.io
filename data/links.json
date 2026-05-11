@@ -1,12 +1,23 @@
 {
   "links": [
     {
+      "id": "mp1a54vgyzbb",
+      "title": "MS Azure Portal",
+      "url": "http://portal.azure.com/",
+      "description": "MS Azure Portal Site",
+      "category": "도구",
+      "addedAt": "2026-05-11T14:11:10.444Z"
+    },
+    {
       "id": "lnk001",
       "title": "GitHub Profile",
       "url": "https://github.com/jongils",
       "description": "jongils의 GitHub 프로필 페이지",
       "category": "개발",
-      "tags": ["github", "profile"],
+      "tags": [
+        "github",
+        "profile"
+      ],
       "addedAt": "2026-04-09T00:00:00.000Z"
     },
     {
@@ -15,7 +26,11 @@
       "url": "https://developer.mozilla.org",
       "description": "웹 기술 공식 문서 — HTML, CSS, JavaScript 레퍼런스",
       "category": "학습",
-      "tags": ["docs", "web", "reference"],
+      "tags": [
+        "docs",
+        "web",
+        "reference"
+      ],
       "addedAt": "2026-04-09T00:00:00.000Z"
     },
     {
@@ -24,7 +39,11 @@
       "url": "https://caniuse.com",
       "description": "브라우저별 웹 기술 지원 현황 확인 도구",
       "category": "도구",
-      "tags": ["browser", "compatibility", "web"],
+      "tags": [
+        "browser",
+        "compatibility",
+        "web"
+      ],
       "addedAt": "2026-04-09T00:00:00.000Z"
     }
   ]
