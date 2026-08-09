@@ -151,6 +151,54 @@
       background: var(--border);
     }
 
+    /* ── Link Manager banner ── */
+    .link-manager-banner {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px 28px;
+      text-decoration: none;
+      color: inherit;
+      margin-bottom: 48px;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .link-manager-banner::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; bottom: 0;
+      width: 4px;
+      background: linear-gradient(180deg, var(--primary), var(--accent));
+    }
+
+    .link-manager-banner:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(37,99,235,0.12);
+      border-color: var(--primary-light);
+    }
+
+    .lm-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+
+    .lm-text { flex: 1; }
+    .lm-text h2 { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; }
+    .lm-text p { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
+    .lm-arrow { font-size: 1.3rem; color: var(--muted); flex-shrink: 0; }
+
     /* ── Project grid ── */
     .grid {
       display: grid;
@@ -219,24 +267,32 @@
       line-height: 1.55;
     }
 
-    .card-coming {
-      opacity: 0.55;
-      cursor: default;
+    .repo-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+      font-size: 0.72rem;
+      color: var(--muted);
     }
 
-    .card-coming:hover {
-      transform: none;
-      box-shadow: none;
-      border-color: var(--border);
+    .repo-meta .lang-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 4px;
     }
 
-    .badge-soon {
-      font-size: 0.7rem;
-      background: #fef3c7;
-      color: #92400e;
-      padding: 2px 7px;
-      border-radius: 20px;
-      font-weight: 500;
+    .repo-meta.dark { color: #64748b; }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+      font-size: 0.88rem;
     }
 
     /* ── Stats bar ── */
@@ -524,6 +580,17 @@
     <div class="line" style="margin-top:6px"><span class="prompt">$</span><span class="cursor"></span></div>
   </div>
 
+  <!-- Link Manager -->
+  <div class="section-title">Link Manager</div>
+  <a class="link-manager-banner" href="/links.html">
+    <div class="lm-icon">🔗</div>
+    <div class="lm-text">
+      <h2>Link Manager</h2>
+      <p>북마크를 저장하고 카테고리별로 분류하여 관리하는 개인 링크 허브입니다.</p>
+    </div>
+    <div class="lm-arrow">→</div>
+  </a>
+
   <!-- Stats -->
   <div class="section-title">Overview</div>
   <div class="stats">
@@ -550,7 +617,7 @@
 
   <!-- Projects -->
   <div class="section-title">Projects</div>
-  <div class="grid">
+  <div id="projectsGrid" class="grid">
 
     <!-- GitHub Profile link -->
     <a class="card" href="https://github.com/jongils" target="_blank" rel="noopener">
@@ -559,23 +626,9 @@
       <p>메인 GitHub 프로필에서 전체 레포지토리와 활동 내역을 확인하세요.</p>
     </a>
 
-    <!-- Placeholder cards -->
-    <a class="card" href="/links.html">
-      <div class="card-icon">🔗</div>
-      <h3>Link Manager <span class="repo-tag">links</span></h3>
-      <p>북마크를 저장하고 카테고리별로 분류하여 관리하는 개인 링크 허브입니다.</p>
-    </a>
-
-    <div class="card card-coming">
-      <div class="card-icon">📡</div>
-      <h3>Project B <span class="badge-soon">coming soon</span></h3>
-      <p>새로운 프로젝트가 곧 추가됩니다.</p>
-    </div>
-
-    <div class="card card-coming">
-      <div class="card-icon">🧪</div>
-      <h3>Project C <span class="badge-soon">coming soon</span></h3>
-      <p>새로운 프로젝트가 곧 추가됩니다.</p>
+    <!-- Public repo tiles, populated from data/repos.json -->
+    <div id="repoTiles" style="display:contents">
+      <div class="empty-state">프로젝트 불러오는 중...</div>
     </div>
 
   </div>
@@ -592,38 +645,8 @@
       <span class="sp-title">// root access granted ·  private zone</span>
       <button class="sp-close" onclick="closeSecret()">[ close ]</button>
     </div>
-    <div class="secret-grid">
-      <!-- ★ 아래 href / 아이콘 / 라벨을 원하는 링크로 교체하세요 ★ -->
-      <a class="secret-link" href="https://notion.so" target="_blank" rel="noopener">
-        <span class="sl-icon">📝</span>
-        <span class="sl-label">Notion</span>
-        <span class="sl-url">notion.so</span>
-      </a>
-      <a class="secret-link" href="https://figma.com" target="_blank" rel="noopener">
-        <span class="sl-icon">🎨</span>
-        <span class="sl-label">Figma</span>
-        <span class="sl-url">figma.com</span>
-      </a>
-      <a class="secret-link" href="https://jira.atlassian.com" target="_blank" rel="noopener">
-        <span class="sl-icon">📋</span>
-        <span class="sl-label">Jira</span>
-        <span class="sl-url">jira.atlassian.com</span>
-      </a>
-      <a class="secret-link" href="https://console.aws.amazon.com" target="_blank" rel="noopener">
-        <span class="sl-icon">☁️</span>
-        <span class="sl-label">AWS Console</span>
-        <span class="sl-url">console.aws.amazon.com</span>
-      </a>
-      <a class="secret-link" href="https://vercel.com/dashboard" target="_blank" rel="noopener">
-        <span class="sl-icon">▲</span>
-        <span class="sl-label">Vercel</span>
-        <span class="sl-url">vercel.com</span>
-      </a>
-      <a class="secret-link" href="https://grafana.com" target="_blank" rel="noopener">
-        <span class="sl-icon">📊</span>
-        <span class="sl-label">Grafana</span>
-        <span class="sl-url">grafana.com</span>
-      </a>
+    <div id="secretGrid" class="secret-grid">
+      <div class="empty-state">프로젝트 불러오는 중...</div>
     </div>
   </div>
 
@@ -646,13 +669,7 @@
 </div>
 
 <script>
-  // ── 설정 ──────────────────────────────────────────────────────────────────
-  // 기본 암호: jongils2026
-  // 변경하려면 브라우저 콘솔에서 아래 명령으로 새 해시를 생성하세요:
-  //   getHash('새비밀번호').then(console.log)
-  // 출력된 값을 SECRET_HASH에 붙여넣으세요.
   const SECRET_HASH = '61a335b0fffb89438f30b648d56638c3a50a4706357db9771ea6240668cdacff';
-  // ──────────────────────────────────────────────────────────────────────────
 
   async function sha256(str) {
     const buf = await crypto.subtle.digest(
@@ -667,6 +684,90 @@
 
   // ── 세션 내 인증 유지 ──
   let authenticated = false;
+
+  // ── Repo tiles ──────────────────────────────────────────────────────────
+  let publicRepos = [];
+  let privateRepos = [];
+
+  function esc(str) {
+    return String(str ?? '')
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+
+  function safeHref(url) {
+    try {
+      const u = new URL(url);
+      return (u.protocol === 'https:' || u.protocol === 'http:') ? url : '#';
+    } catch { return '#'; }
+  }
+
+  const LANG_COLORS = {
+    JavaScript: '#f1e05a', TypeScript: '#3178c6', Python: '#3572A5',
+    HTML: '#e34c26', CSS: '#563d7c', Java: '#b07219', Go: '#00ADD8',
+    Rust: '#dea584', Shell: '#89e051', 'C++': '#f34b7d', C: '#555555',
+    Ruby: '#701516', Swift: '#F05138', Kotlin: '#A97BFF'
+  };
+
+  function formatDate(iso) {
+    if (!iso) return '';
+    return new Date(iso).toLocaleDateString('ko-KR', { year: 'numeric', month: 'short', day: 'numeric' });
+  }
+
+  function repoMeta(repo, dark) {
+    const parts = [];
+    if (repo.language) {
+      parts.push(`<span><span class="lang-dot" style="background:${LANG_COLORS[repo.language] || '#8b949e'}"></span>${esc(repo.language)}</span>`);
+    }
+    parts.push(`<span>★ ${repo.stargazers_count ?? 0}</span>`);
+    if (repo.updated_at) parts.push(`<span>Updated ${formatDate(repo.updated_at)}</span>`);
+    return `<div class="repo-meta${dark ? ' dark' : ''}">${parts.join('')}</div>`;
+  }
+
+  function renderPublicRepos() {
+    const slot = document.getElementById('repoTiles');
+    if (!publicRepos.length) {
+      slot.innerHTML = `<div class="empty-state">공개 프로젝트가 없습니다.</div>`;
+      return;
+    }
+    slot.innerHTML = publicRepos.map(repo => `
+      <a class="card" href="${esc(safeHref(repo.html_url))}" target="_blank" rel="noopener noreferrer">
+        <div class="card-icon">📦</div>
+        <h3>${esc(repo.name)}</h3>
+        <p>${esc(repo.description || '설명 없음')}</p>
+        ${repoMeta(repo)}
+      </a>`).join('');
+  }
+
+  function renderPrivateRepos() {
+    const grid = document.getElementById('secretGrid');
+    if (!privateRepos.length) {
+      grid.innerHTML = `<div class="empty-state">비공개 프로젝트가 없습니다.</div>`;
+      return;
+    }
+    grid.innerHTML = privateRepos.map(repo => `
+      <a class="secret-link" href="${esc(safeHref(repo.html_url))}" target="_blank" rel="noopener noreferrer">
+        <span class="sl-icon">🔒</span>
+        <span class="sl-label">${esc(repo.name)}</span>
+        <span class="sl-url">${esc(repo.description || '설명 없음')}</span>
+        ${repoMeta(repo, true)}
+      </a>`).join('');
+  }
+
+  const reposLoaded = (async () => {
+    try {
+      const res = await fetch('/data/repos.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      publicRepos = data.publicRepos || [];
+      privateRepos = data.privateRepos || [];
+    } catch (e) {
+      publicRepos = [];
+      privateRepos = [];
+    }
+    renderPublicRepos();
+  })();
+  // ─────────────────────────────────────────────────────────────────────────
 
   document.getElementById('secretTrigger').addEventListener('click', () => {
     if (authenticated) { togglePanel(); return; }
@@ -707,10 +808,12 @@
     }
   }
 
-  function showPanel() {
+  async function showPanel() {
     const panel = document.getElementById('secretPanel');
     panel.classList.add('active');
     panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    await reposLoaded;
+    renderPrivateRepos();
   }
 
   function togglePanel() {
