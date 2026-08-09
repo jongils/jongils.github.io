@@ -1,5 +1,255 @@
 {
-  "updatedAt": null,
-  "publicRepos": [],
-  "privateRepos": []
+  "updatedAt": "2026-08-09T07:00:06Z",
+  "publicRepos": [
+    {
+      "name": "jongils.github.io",
+      "description": "Main page to publish personal github in public",
+      "html_url": "https://github.com/jongils/jongils.github.io",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-08-09T06:59:32Z"
+    },
+    {
+      "name": "simulink-agentic-toolkit",
+      "description": "The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.",
+      "html_url": "https://github.com/jongils/simulink-agentic-toolkit",
+      "language": null,
+      "stargazers_count": 0,
+      "updated_at": "2026-08-08T13:22:20Z"
+    },
+    {
+      "name": "GeekMagic-WeatherClock",
+      "description": null,
+      "html_url": "https://github.com/jongils/GeekMagic-WeatherClock",
+      "language": "Python",
+      "stargazers_count": 0,
+      "updated_at": "2026-07-25T23:12:47Z"
+    },
+    {
+      "name": "MATLAB-BTI",
+      "description": null,
+      "html_url": "https://github.com/jongils/MATLAB-BTI",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-07-24T01:20:30Z"
+    },
+    {
+      "name": "EcuBus-Pro",
+      "description": "A powerful automotive ECU development tool. UDS, CAN-TP, DOIP, LIN , Script(TS) like CAPL, HIL Test",
+      "html_url": "https://github.com/jongils/EcuBus-Pro",
+      "language": "C++",
+      "stargazers_count": 0,
+      "updated_at": "2026-07-16T23:53:04Z"
+    },
+    {
+      "name": "SimpleVehicleArduino",
+      "description": "Simple vehicle model that runs in Arduino Uno platform",
+      "html_url": "https://github.com/jongils/SimpleVehicleArduino",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-04-19T12:18:13Z"
+    },
+    {
+      "name": "automotive-claude-code-agents",
+      "description": "Automotive software engineering is one of the most complex and regulated domains in the world. Engineers juggle **ISO 26262 functional safety**, **AUTOSAR architectures**, **MISRA compliance**, **cybersecurity standards**, and **real-time embedded constraints** -- all while shipping on aggressive timelines.",
+      "html_url": "https://github.com/jongils/automotive-claude-code-agents",
+      "language": null,
+      "stargazers_count": 0,
+      "updated_at": "2026-03-24T09:37:22Z"
+    },
+    {
+      "name": "FreeCAD",
+      "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
+      "html_url": "https://github.com/jongils/FreeCAD",
+      "language": "C++",
+      "stargazers_count": 0,
+      "updated_at": "2026-03-15T05:05:36Z"
+    },
+    {
+      "name": "busmaster",
+      "description": "BUSMASTER is an Open Source Software tool to simulate, analyze and test data bus systems such as CAN. BUSMASTER was conceptualized, designed and implemented by Robert Bosch Engineering and Business Solutions (RBEI). Presently it is a joint project of RBEI and ETAS GmbH. ",
+      "html_url": "https://github.com/jongils/busmaster",
+      "language": "C++",
+      "stargazers_count": 0,
+      "updated_at": "2026-03-14T03:19:36Z"
+    },
+    {
+      "name": "openscad",
+      "description": "OpenSCAD - The Programmers Solid 3D CAD Modeller  ",
+      "html_url": "https://github.com/jongils/openscad",
+      "language": null,
+      "stargazers_count": 0,
+      "updated_at": "2026-03-13T13:26:30Z"
+    },
+    {
+      "name": "M365_Copilot_Agents",
+      "description": "The Microsoft 365 Agent SDK simplifies building full stack, multichannel, trusted agents for platforms including M365, Teams, Copilot Studio, and Webchat.",
+      "html_url": "https://github.com/jongils/M365_Copilot_Agents",
+      "language": null,
+      "stargazers_count": 0,
+      "updated_at": "2026-01-18T01:57:27Z"
+    },
+    {
+      "name": "AM32",
+      "description": "Code for Drone from the original AM32 github",
+      "html_url": "https://github.com/jongils/AM32",
+      "language": null,
+      "stargazers_count": 0,
+      "updated_at": "2026-01-11T00:46:16Z"
+    }
+  ],
+  "privateRepos": [
+    {
+      "name": "MarkNext-SpringDesign",
+      "description": "App for Spring Design",
+      "html_url": "https://github.com/jongils/MarkNext-SpringDesign",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "updated_at": "2026-08-08T04:36:30Z"
+    },
+    {
+      "name": "SATK_Offline_Installation",
+      "description": null,
+      "html_url": "https://github.com/jongils/SATK_Offline_Installation",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-08-06T23:07:00Z"
+    },
+    {
+      "name": "Stock-Analyzer",
+      "description": "Korea stock analyzer ",
+      "html_url": "https://github.com/jongils/Stock-Analyzer",
+      "language": "Python",
+      "stargazers_count": 0,
+      "updated_at": "2026-08-06T13:44:01Z"
+    },
+    {
+      "name": "GitHub-Template",
+      "description": "Project Template in GitHub for Personal Repo.",
+      "html_url": "https://github.com/jongils/GitHub-Template",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-08-06T12:19:54Z"
+    },
+    {
+      "name": "MATLAB-UDS-Suite",
+      "description": "UDS diagnostic client (MATLAB-VNT-UDS) + ECU server simulator (UDSSimulator/matlab), merged into one MATLAB project",
+      "html_url": "https://github.com/jongils/MATLAB-UDS-Suite",
+      "language": "MATLAB",
+      "stargazers_count": 0,
+      "updated_at": "2026-08-03T07:18:29Z"
+    },
+    {
+      "name": "MATLAB-BTI-Private",
+      "description": "MATLAB-BTI-Private",
+      "html_url": "https://github.com/jongils/MATLAB-BTI-Private",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-07-24T08:22:56Z"
+    },
+    {
+      "name": "UDSSimulator",
+      "description": null,
+      "html_url": "https://github.com/jongils/UDSSimulator",
+      "language": "MATLAB",
+      "stargazers_count": 0,
+      "updated_at": "2026-07-23T12:59:49Z"
+    },
+    {
+      "name": "KnowledgeSource",
+      "description": "Repo for knowledge",
+      "html_url": "https://github.com/jongils/KnowledgeSource",
+      "language": null,
+      "stargazers_count": 0,
+      "updated_at": "2026-07-19T13:17:11Z"
+    },
+    {
+      "name": "TestProject",
+      "description": "TestProject #2",
+      "html_url": "https://github.com/jongils/TestProject",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-07-12T04:02:42Z"
+    },
+    {
+      "name": "MATLAB-VNT-UDS",
+      "description": null,
+      "html_url": "https://github.com/jongils/MATLAB-VNT-UDS",
+      "language": "MATLAB",
+      "stargazers_count": 0,
+      "updated_at": "2026-06-09T13:40:31Z"
+    },
+    {
+      "name": "MATLAB-UDS-FuzzyTesting",
+      "description": null,
+      "html_url": "https://github.com/jongils/MATLAB-UDS-FuzzyTesting",
+      "language": "MATLAB",
+      "stargazers_count": 0,
+      "updated_at": "2026-05-11T00:10:59Z"
+    },
+    {
+      "name": "MATLAB-VNT-ETAS-BOA-Driver",
+      "description": null,
+      "html_url": "https://github.com/jongils/MATLAB-VNT-ETAS-BOA-Driver",
+      "language": "C",
+      "stargazers_count": 0,
+      "updated_at": "2026-05-09T22:22:03Z"
+    },
+    {
+      "name": "SYMC_SeednKey",
+      "description": "SYMC Seed & Key Algorithm",
+      "html_url": "https://github.com/jongils/SYMC_SeednKey",
+      "language": "C++",
+      "stargazers_count": 0,
+      "updated_at": "2026-03-14T07:48:43Z"
+    },
+    {
+      "name": "ASAP2_Lib",
+      "description": "ASAP2 Library",
+      "html_url": "https://github.com/jongils/ASAP2_Lib",
+      "language": "C#",
+      "stargazers_count": 0,
+      "updated_at": "2026-03-11T04:03:12Z"
+    },
+    {
+      "name": "AutoClicker",
+      "description": null,
+      "html_url": "https://github.com/jongils/AutoClicker",
+      "language": "TeX",
+      "stargazers_count": 0,
+      "updated_at": "2026-02-08T13:26:59Z"
+    },
+    {
+      "name": "NXP_DS32K146_SDK_UART",
+      "description": "This project includes simple echo communication through UART",
+      "html_url": "https://github.com/jongils/NXP_DS32K146_SDK_UART",
+      "language": "C",
+      "stargazers_count": 0,
+      "updated_at": "2024-01-02T23:48:07Z"
+    },
+    {
+      "name": "StudyPython",
+      "description": null,
+      "html_url": "https://github.com/jongils/StudyPython",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 0,
+      "updated_at": "2020-06-23T12:21:18Z"
+    },
+    {
+      "name": "VCU_DataSetGenerator",
+      "description": null,
+      "html_url": "https://github.com/jongils/VCU_DataSetGenerator",
+      "language": "C",
+      "stargazers_count": 0,
+      "updated_at": "2020-05-13T02:36:08Z"
+    },
+    {
+      "name": "DTI",
+      "description": "Driving Trace Index for WLTP",
+      "html_url": "https://github.com/jongils/DTI",
+      "language": "MATLAB",
+      "stargazers_count": 0,
+      "updated_at": "2020-05-11T22:40:10Z"
+    }
+  ]
 }
