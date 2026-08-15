@@ -1,13 +1,29 @@
 {
-  "updatedAt": "2026-08-14T01:42:11Z",
+  "updatedAt": "2026-08-15T01:02:38Z",
   "publicRepos": [
+    {
+      "name": "GeekMagic-Customization",
+      "description": "Develop firmware based on GeekMagic Ultra",
+      "html_url": "https://github.com/jongils/GeekMagic-Customization",
+      "language": "C++",
+      "stargazers_count": 0,
+      "updated_at": "2026-08-14T23:18:04Z"
+    },
+    {
+      "name": "simulink-agentic-toolkit",
+      "description": "The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.",
+      "html_url": "https://github.com/jongils/simulink-agentic-toolkit",
+      "language": null,
+      "stargazers_count": 1,
+      "updated_at": "2026-08-14T11:59:24Z"
+    },
     {
       "name": "SimulinkAgenticToolkit-WebPage",
       "description": "SimulinkAgenticToolkit-WebPage",
       "html_url": "https://github.com/jongils/SimulinkAgenticToolkit-WebPage",
       "language": "HTML",
-      "stargazers_count": 0,
-      "updated_at": "2026-08-14T00:22:05Z"
+      "stargazers_count": 1,
+      "updated_at": "2026-08-14T11:59:09Z"
     },
     {
       "name": "jongils.github.io",
@@ -15,7 +31,7 @@
       "html_url": "https://github.com/jongils/jongils.github.io",
       "language": "HTML",
       "stargazers_count": 0,
-      "updated_at": "2026-08-13T01:43:45Z"
+      "updated_at": "2026-08-14T01:42:27Z"
     },
     {
       "name": "FreeRTOS-Pi-Zero-2w",
@@ -32,14 +48,6 @@
       "language": "C++",
       "stargazers_count": 0,
       "updated_at": "2026-08-12T13:50:59Z"
-    },
-    {
-      "name": "simulink-agentic-toolkit",
-      "description": "The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.",
-      "html_url": "https://github.com/jongils/simulink-agentic-toolkit",
-      "language": null,
-      "stargazers_count": 0,
-      "updated_at": "2026-08-08T13:22:20Z"
     },
     {
       "name": "GeekMagic-WeatherClock",
@@ -120,8 +128,8 @@
       "description": null,
       "html_url": "https://github.com/jongils/SATK_Offline_Installation",
       "language": "HTML",
-      "stargazers_count": 0,
-      "updated_at": "2026-08-14T00:22:17Z"
+      "stargazers_count": 1,
+      "updated_at": "2026-08-14T11:59:16Z"
     },
     {
       "name": "MarkNext-SpringDesign",
