@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-23T01:07:35Z",
+  "updatedAt": "2026-08-24T01:05:34Z",
   "publicRepos": [
     {
-      "name": "jongils.github.io",
-      "description": "Main page to publish personal github in public",
-      "html_url": "https://github.com/jongils/jongils.github.io",
-      "language": "HTML",
-      "stargazers_count": 0,
-      "updated_at": "2026-08-22T01:02:29Z"
+      "name": "GeekMagic-Customization",
+      "description": "Develop firmware based on GeekMagic Ultra",
+      "html_url": "https://github.com/jongils/GeekMagic-Customization",
+      "language": "C",
+      "stargazers_count": 1,
+      "updated_at": "2026-08-23T21:59:51Z"
     },
     {
       "name": "SimulinkAgenticToolkit-WebPage",
@@ -15,15 +15,15 @@
       "html_url": "https://github.com/jongils/SimulinkAgenticToolkit-WebPage",
       "language": "HTML",
       "stargazers_count": 1,
-      "updated_at": "2026-08-21T01:38:16Z"
+      "updated_at": "2026-08-23T06:56:31Z"
     },
     {
-      "name": "GeekMagic-Customization",
-      "description": "Develop firmware based on GeekMagic Ultra",
-      "html_url": "https://github.com/jongils/GeekMagic-Customization",
-      "language": "C",
-      "stargazers_count": 1,
-      "updated_at": "2026-08-17T14:02:21Z"
+      "name": "jongils.github.io",
+      "description": "Main page to publish personal github in public",
+      "html_url": "https://github.com/jongils/jongils.github.io",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-08-23T01:07:44Z"
     },
     {
       "name": "simulink-agentic-toolkit",
@@ -129,7 +129,7 @@
       "html_url": "https://github.com/jongils/SATK_Offline_Installation",
       "language": "HTML",
       "stargazers_count": 1,
-      "updated_at": "2026-08-21T01:38:46Z"
+      "updated_at": "2026-08-23T06:56:19Z"
     },
     {
       "name": "MarkNext-SpringDesign",
