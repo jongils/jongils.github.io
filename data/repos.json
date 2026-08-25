@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T01:05:34Z",
+  "updatedAt": "2026-08-25T01:04:29Z",
   "publicRepos": [
     {
       "name": "GeekMagic-Customization",
@@ -7,7 +7,15 @@
       "html_url": "https://github.com/jongils/GeekMagic-Customization",
       "language": "C",
       "stargazers_count": 1,
-      "updated_at": "2026-08-23T21:59:51Z"
+      "updated_at": "2026-08-24T21:54:39Z"
+    },
+    {
+      "name": "jongils.github.io",
+      "description": "Main page to publish personal github in public",
+      "html_url": "https://github.com/jongils/jongils.github.io",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-08-24T01:05:55Z"
     },
     {
       "name": "SimulinkAgenticToolkit-WebPage",
@@ -16,14 +24,6 @@
       "language": "HTML",
       "stargazers_count": 1,
       "updated_at": "2026-08-23T06:56:31Z"
-    },
-    {
-      "name": "jongils.github.io",
-      "description": "Main page to publish personal github in public",
-      "html_url": "https://github.com/jongils/jongils.github.io",
-      "language": "HTML",
-      "stargazers_count": 0,
-      "updated_at": "2026-08-23T01:07:44Z"
     },
     {
       "name": "simulink-agentic-toolkit",
