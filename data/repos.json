@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-10T02:58:55Z",
+  "updatedAt": "2026-09-11T02:54:19Z",
   "publicRepos": [
     {
-      "name": "jongils.github.io",
-      "description": "Main page to publish personal github in public",
-      "html_url": "https://github.com/jongils/jongils.github.io",
-      "language": "HTML",
-      "stargazers_count": 0,
-      "updated_at": "2026-09-09T02:58:42Z"
+      "name": "GeekMagic-Customization",
+      "description": "Develop firmware based on GeekMagic Ultra",
+      "html_url": "https://github.com/jongils/GeekMagic-Customization",
+      "language": "C",
+      "stargazers_count": 1,
+      "updated_at": "2026-09-11T02:11:32Z"
     },
     {
       "name": "SimulinkAgenticToolkit-WebPage",
@@ -15,15 +15,15 @@
       "html_url": "https://github.com/jongils/SimulinkAgenticToolkit-WebPage",
       "language": "HTML",
       "stargazers_count": 1,
-      "updated_at": "2026-09-04T03:48:20Z"
+      "updated_at": "2026-09-10T03:57:39Z"
     },
     {
-      "name": "GeekMagic-Customization",
-      "description": "Develop firmware based on GeekMagic Ultra",
-      "html_url": "https://github.com/jongils/GeekMagic-Customization",
-      "language": "C",
-      "stargazers_count": 1,
-      "updated_at": "2026-08-24T21:54:39Z"
+      "name": "jongils.github.io",
+      "description": "Main page to publish personal github in public",
+      "html_url": "https://github.com/jongils/jongils.github.io",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-09-10T02:59:00Z"
     },
     {
       "name": "simulink-agentic-toolkit",
@@ -124,12 +124,20 @@
   ],
   "privateRepos": [
     {
+      "name": "Arduino_ILI9341",
+      "description": "Arduino UNO + 2.4in ILI9341 parallel shield starter firmware",
+      "html_url": "https://github.com/jongils/Arduino_ILI9341",
+      "language": "C++",
+      "stargazers_count": 0,
+      "updated_at": "2026-09-11T00:55:26Z"
+    },
+    {
       "name": "SATK_Offline_Installation",
       "description": null,
       "html_url": "https://github.com/jongils/SATK_Offline_Installation",
       "language": "HTML",
       "stargazers_count": 1,
-      "updated_at": "2026-09-06T07:35:32Z"
+      "updated_at": "2026-09-10T03:57:55Z"
     },
     {
       "name": "VirtualWorld-RR",
