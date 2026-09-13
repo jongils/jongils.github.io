@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-09-12T03:01:15Z",
+  "updatedAt": "2026-09-13T03:01:42Z",
   "publicRepos": [
+    {
+      "name": "HOA-Guard",
+      "description": "공동주택 관리시스템에 투명성을 확보하기 위한 AI기반 관리 시스템입니다.",
+      "html_url": "https://github.com/jongils/HOA-Guard",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "updated_at": "2026-09-12T09:07:03Z"
+    },
+    {
+      "name": "jongils.github.io",
+      "description": "Main page to publish personal github in public",
+      "html_url": "https://github.com/jongils/jongils.github.io",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-09-12T03:01:19Z"
+    },
     {
       "name": "GeekMagic-Customization",
       "description": "Develop firmware based on GeekMagic Ultra",
@@ -16,14 +32,6 @@
       "language": "HTML",
       "stargazers_count": 1,
       "updated_at": "2026-09-11T03:53:32Z"
-    },
-    {
-      "name": "jongils.github.io",
-      "description": "Main page to publish personal github in public",
-      "html_url": "https://github.com/jongils/jongils.github.io",
-      "language": "HTML",
-      "stargazers_count": 0,
-      "updated_at": "2026-09-11T02:54:23Z"
     },
     {
       "name": "simulink-agentic-toolkit",
@@ -124,20 +132,20 @@
   ],
   "privateRepos": [
     {
+      "name": "Arduino_ILI9341",
+      "description": "Arduino UNO + 2.4in ILI9341 parallel shield starter firmware",
+      "html_url": "https://github.com/jongils/Arduino_ILI9341",
+      "language": "C++",
+      "stargazers_count": 0,
+      "updated_at": "2026-09-13T00:55:56Z"
+    },
+    {
       "name": "GitHub-Template",
       "description": "Project Template in GitHub for Personal Repo.",
       "html_url": "https://github.com/jongils/GitHub-Template",
       "language": "HTML",
       "stargazers_count": 0,
       "updated_at": "2026-09-12T02:42:31Z"
-    },
-    {
-      "name": "Arduino_ILI9341",
-      "description": "Arduino UNO + 2.4in ILI9341 parallel shield starter firmware",
-      "html_url": "https://github.com/jongils/Arduino_ILI9341",
-      "language": "C++",
-      "stargazers_count": 0,
-      "updated_at": "2026-09-12T02:32:39Z"
     },
     {
       "name": "SATK_Offline_Installation",
