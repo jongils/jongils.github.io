@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-13T03:01:42Z",
+  "updatedAt": "2026-09-14T03:15:58Z",
   "publicRepos": [
     {
-      "name": "HOA-Guard",
-      "description": "공동주택 관리시스템에 투명성을 확보하기 위한 AI기반 관리 시스템입니다.",
-      "html_url": "https://github.com/jongils/HOA-Guard",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "updated_at": "2026-09-12T09:07:03Z"
+      "name": "simulink-agentic-toolkit",
+      "description": "The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.",
+      "html_url": "https://github.com/jongils/simulink-agentic-toolkit",
+      "language": "HTML",
+      "stargazers_count": 1,
+      "updated_at": "2026-09-13T04:15:47Z"
     },
     {
       "name": "jongils.github.io",
@@ -15,7 +15,15 @@
       "html_url": "https://github.com/jongils/jongils.github.io",
       "language": "HTML",
       "stargazers_count": 0,
-      "updated_at": "2026-09-12T03:01:19Z"
+      "updated_at": "2026-09-13T03:01:47Z"
+    },
+    {
+      "name": "HOA-Guard",
+      "description": "공동주택 관리시스템에 투명성을 확보하기 위한 AI기반 관리 시스템입니다.",
+      "html_url": "https://github.com/jongils/HOA-Guard",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "updated_at": "2026-09-12T09:07:03Z"
     },
     {
       "name": "GeekMagic-Customization",
@@ -32,14 +40,6 @@
       "language": "HTML",
       "stargazers_count": 1,
       "updated_at": "2026-09-11T03:53:32Z"
-    },
-    {
-      "name": "simulink-agentic-toolkit",
-      "description": "The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.",
-      "html_url": "https://github.com/jongils/simulink-agentic-toolkit",
-      "language": null,
-      "stargazers_count": 1,
-      "updated_at": "2026-08-14T11:59:24Z"
     },
     {
       "name": "FreeRTOS-Pi-Zero-2w",
