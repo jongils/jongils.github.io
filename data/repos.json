@@ -1,13 +1,21 @@
 {
-  "updatedAt": "2026-09-30T03:53:15Z",
+  "updatedAt": "2026-10-01T04:01:55Z",
   "publicRepos": [
+    {
+      "name": "Inverter-bldc",
+      "description": "The VESC motor control firmware",
+      "html_url": "https://github.com/jongils/Inverter-bldc",
+      "language": null,
+      "stargazers_count": 0,
+      "updated_at": "2026-09-30T13:58:12Z"
+    },
     {
       "name": "jongils.github.io",
       "description": "Main page to publish personal github in public",
       "html_url": "https://github.com/jongils/jongils.github.io",
       "language": "HTML",
       "stargazers_count": 0,
-      "updated_at": "2026-09-29T04:07:32Z"
+      "updated_at": "2026-09-30T03:53:20Z"
     },
     {
       "name": "HOA-Guard",
