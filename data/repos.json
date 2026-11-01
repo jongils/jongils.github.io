@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T03:57:25Z",
+  "updatedAt": "2026-11-01T04:14:36Z",
   "publicRepos": [
     {
       "name": "SimulinkAgenticToolkit-WebPage",
@@ -7,7 +7,7 @@
       "html_url": "https://github.com/jongils/SimulinkAgenticToolkit-WebPage",
       "language": "HTML",
       "stargazers_count": 1,
-      "updated_at": "2026-10-30T05:03:17Z"
+      "updated_at": "2026-10-31T04:51:14Z"
     },
     {
       "name": "jongils.github.io",
@@ -15,7 +15,7 @@
       "html_url": "https://github.com/jongils/jongils.github.io",
       "language": "HTML",
       "stargazers_count": 0,
-      "updated_at": "2026-10-30T04:17:14Z"
+      "updated_at": "2026-10-31T03:57:29Z"
     },
     {
       "name": "Inverter-bldc",
@@ -145,7 +145,7 @@
       "html_url": "https://github.com/jongils/SATK_Offline_Installation",
       "language": "HTML",
       "stargazers_count": 1,
-      "updated_at": "2026-10-30T05:03:34Z"
+      "updated_at": "2026-10-31T04:51:30Z"
     },
     {
       "name": "Arduino_ILI9341",
