@@ -1,13 +1,21 @@
 {
-  "updatedAt": "2026-11-06T04:59:14Z",
+  "updatedAt": "2026-11-07T04:32:54Z",
   "publicRepos": [
+    {
+      "name": "GeekMagic-Customization",
+      "description": "Develop firmware based on GeekMagic Ultra",
+      "html_url": "https://github.com/jongils/GeekMagic-Customization",
+      "language": "C",
+      "stargazers_count": 1,
+      "updated_at": "2026-11-07T00:59:49Z"
+    },
     {
       "name": "SimulinkAgenticToolkit-WebPage",
       "description": "SimulinkAgenticToolkit-WebPage",
       "html_url": "https://github.com/jongils/SimulinkAgenticToolkit-WebPage",
       "language": "HTML",
       "stargazers_count": 1,
-      "updated_at": "2026-11-05T05:54:49Z"
+      "updated_at": "2026-11-06T05:51:12Z"
     },
     {
       "name": "jongils.github.io",
@@ -15,7 +23,7 @@
       "html_url": "https://github.com/jongils/jongils.github.io",
       "language": "HTML",
       "stargazers_count": 0,
-      "updated_at": "2026-11-05T04:59:42Z"
+      "updated_at": "2026-11-06T04:59:19Z"
     },
     {
       "name": "Inverter-bldc",
@@ -40,14 +48,6 @@
       "language": "HTML",
       "stargazers_count": 1,
       "updated_at": "2026-09-13T04:15:47Z"
-    },
-    {
-      "name": "GeekMagic-Customization",
-      "description": "Develop firmware based on GeekMagic Ultra",
-      "html_url": "https://github.com/jongils/GeekMagic-Customization",
-      "language": "C",
-      "stargazers_count": 1,
-      "updated_at": "2026-09-11T05:49:10Z"
     },
     {
       "name": "FreeRTOS-Pi-Zero-2w",
@@ -140,20 +140,20 @@
   ],
   "privateRepos": [
     {
-      "name": "SATK_Offline_Installation",
-      "description": null,
-      "html_url": "https://github.com/jongils/SATK_Offline_Installation",
-      "language": "HTML",
-      "stargazers_count": 1,
-      "updated_at": "2026-11-05T05:55:06Z"
-    },
-    {
       "name": "Arduino_ILI9341",
       "description": "Arduino UNO + 2.4in ILI9341 parallel shield starter firmware",
       "html_url": "https://github.com/jongils/Arduino_ILI9341",
       "language": "C++",
       "stargazers_count": 0,
-      "updated_at": "2026-10-16T09:12:58Z"
+      "updated_at": "2026-11-07T03:10:52Z"
+    },
+    {
+      "name": "SATK_Offline_Installation",
+      "description": null,
+      "html_url": "https://github.com/jongils/SATK_Offline_Installation",
+      "language": "HTML",
+      "stargazers_count": 1,
+      "updated_at": "2026-11-06T05:51:28Z"
     },
     {
       "name": "GitHub-Template",
