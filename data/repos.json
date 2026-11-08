@@ -1,21 +1,13 @@
 {
-  "updatedAt": "2026-11-07T04:32:54Z",
+  "updatedAt": "2026-11-08T21:07:45Z",
   "publicRepos": [
-    {
-      "name": "GeekMagic-Customization",
-      "description": "Develop firmware based on GeekMagic Ultra",
-      "html_url": "https://github.com/jongils/GeekMagic-Customization",
-      "language": "C",
-      "stargazers_count": 1,
-      "updated_at": "2026-11-07T00:59:49Z"
-    },
     {
       "name": "SimulinkAgenticToolkit-WebPage",
       "description": "SimulinkAgenticToolkit-WebPage",
       "html_url": "https://github.com/jongils/SimulinkAgenticToolkit-WebPage",
       "language": "HTML",
       "stargazers_count": 1,
-      "updated_at": "2026-11-06T05:51:12Z"
+      "updated_at": "2026-11-07T09:08:21Z"
     },
     {
       "name": "jongils.github.io",
@@ -23,7 +15,15 @@
       "html_url": "https://github.com/jongils/jongils.github.io",
       "language": "HTML",
       "stargazers_count": 0,
-      "updated_at": "2026-11-06T04:59:19Z"
+      "updated_at": "2026-11-07T04:32:59Z"
+    },
+    {
+      "name": "GeekMagic-Customization",
+      "description": "Develop firmware based on GeekMagic Ultra",
+      "html_url": "https://github.com/jongils/GeekMagic-Customization",
+      "language": "C",
+      "stargazers_count": 1,
+      "updated_at": "2026-11-07T00:59:49Z"
     },
     {
       "name": "Inverter-bldc",
@@ -140,12 +140,12 @@
   ],
   "privateRepos": [
     {
-      "name": "Arduino_ILI9341",
-      "description": "Arduino UNO + 2.4in ILI9341 parallel shield starter firmware",
-      "html_url": "https://github.com/jongils/Arduino_ILI9341",
-      "language": "C++",
+      "name": "pi5-hailo-local-llm",
+      "description": "Raspberry Pi 5 + Hailo-10H local LLM (hailo-ollama) with code-server and Continue: setup docs, install script, compatibility proxy",
+      "html_url": "https://github.com/jongils/pi5-hailo-local-llm",
+      "language": "Python",
       "stargazers_count": 0,
-      "updated_at": "2026-11-07T03:10:52Z"
+      "updated_at": "2026-11-08T00:11:32Z"
     },
     {
       "name": "SATK_Offline_Installation",
@@ -153,7 +153,15 @@
       "html_url": "https://github.com/jongils/SATK_Offline_Installation",
       "language": "HTML",
       "stargazers_count": 1,
-      "updated_at": "2026-11-06T05:51:28Z"
+      "updated_at": "2026-11-07T09:08:35Z"
+    },
+    {
+      "name": "Arduino_ILI9341",
+      "description": "Arduino UNO + 2.4in ILI9341 parallel shield starter firmware",
+      "html_url": "https://github.com/jongils/Arduino_ILI9341",
+      "language": "C++",
+      "stargazers_count": 0,
+      "updated_at": "2026-11-07T03:10:52Z"
     },
     {
       "name": "GitHub-Template",
