@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-12T05:40:49Z",
+  "updatedAt": "2026-11-13T04:57:32Z",
   "publicRepos": [
-    {
-      "name": "jongils.github.io",
-      "description": "Main page to publish personal github in public",
-      "html_url": "https://github.com/jongils/jongils.github.io",
-      "language": "HTML",
-      "stargazers_count": 0,
-      "updated_at": "2026-11-11T05:37:34Z"
-    },
     {
       "name": "SimulinkAgenticToolkit-WebPage",
       "description": "SimulinkAgenticToolkit-WebPage",
       "html_url": "https://github.com/jongils/SimulinkAgenticToolkit-WebPage",
       "language": "HTML",
       "stargazers_count": 1,
-      "updated_at": "2026-11-07T09:08:21Z"
+      "updated_at": "2026-11-12T07:32:47Z"
+    },
+    {
+      "name": "jongils.github.io",
+      "description": "Main page to publish personal github in public",
+      "html_url": "https://github.com/jongils/jongils.github.io",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "updated_at": "2026-11-12T06:40:53Z"
     },
     {
       "name": "GeekMagic-Customization",
@@ -140,20 +140,20 @@
   ],
   "privateRepos": [
     {
+      "name": "SATK_Offline_Installation",
+      "description": null,
+      "html_url": "https://github.com/jongils/SATK_Offline_Installation",
+      "language": "HTML",
+      "stargazers_count": 1,
+      "updated_at": "2026-11-12T07:33:30Z"
+    },
+    {
       "name": "pi5-hailo-local-llm",
       "description": "Raspberry Pi 5 + Hailo-10H local LLM (hailo-ollama) with code-server and Continue: setup docs, install script, compatibility proxy",
       "html_url": "https://github.com/jongils/pi5-hailo-local-llm",
       "language": "Python",
       "stargazers_count": 0,
       "updated_at": "2026-11-08T00:11:32Z"
-    },
-    {
-      "name": "SATK_Offline_Installation",
-      "description": null,
-      "html_url": "https://github.com/jongils/SATK_Offline_Installation",
-      "language": "HTML",
-      "stargazers_count": 1,
-      "updated_at": "2026-11-07T09:08:35Z"
     },
     {
       "name": "Arduino_ILI9341",
