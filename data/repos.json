@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-11-25T06:54:34Z",
+  "updatedAt": "2026-11-26T06:45:21Z",
   "publicRepos": [
+    {
+      "name": "GeekMagic-Customization",
+      "description": "Develop firmware based on GeekMagic Ultra",
+      "html_url": "https://github.com/jongils/GeekMagic-Customization",
+      "language": "C",
+      "stargazers_count": 2,
+      "updated_at": "2026-11-26T02:44:48Z"
+    },
     {
       "name": "SimulinkAgenticToolkit-WebPage",
       "description": "SimulinkAgenticToolkit-WebPage",
@@ -16,14 +24,6 @@
       "language": "HTML",
       "stargazers_count": 0,
       "updated_at": "2026-11-12T06:40:53Z"
-    },
-    {
-      "name": "GeekMagic-Customization",
-      "description": "Develop firmware based on GeekMagic Ultra",
-      "html_url": "https://github.com/jongils/GeekMagic-Customization",
-      "language": "C",
-      "stargazers_count": 1,
-      "updated_at": "2026-11-07T00:59:49Z"
     },
     {
       "name": "Inverter-bldc",
